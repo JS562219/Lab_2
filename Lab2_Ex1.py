@@ -1,5 +1,4 @@
-
-
+# This code is built from Peter Hinch's micropython-micro-gui, section 2.1 of the README
 import hardware_setup # Instantiate display, setup color LUT (if present) from gui.core.ugui import Screen, ssd
 from gui.widgets import Label, Button, CloseButton
 from gui.core.writer import Writer #Monochrome display
